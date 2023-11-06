@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Wubby Meme Search",
+  "name": "Search for all your favorite Wubby memes!",
   "icons": [
     {
       "src": "favicon.ico",
