@@ -1,0 +1,48 @@
+#submit-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+  padding-top: 10vh;
+}
+
+.submission-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+}
+
+.submission-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1rem;
+}
+
+.submission-form-input {
+  height: 2rem;
+  max-height: 20rem;
+  width: 50rem;
+  border-radius: 10px;
+  border: none;
+  padding: 3px 10px;
+  font-size: 1rem;
+  color: rgb(58, 58, 58);
+  resize: none;
+}
+
+.submission-form-input:focus {
+  outline: var(--highlight-color);
+  outline-width: 7px;
+  outline-style: solid;
+}
+
+.submission-form-text-body {
+  resize: vertical;
+  min-height: 5rem;
+  max-height: 20rem;
+}

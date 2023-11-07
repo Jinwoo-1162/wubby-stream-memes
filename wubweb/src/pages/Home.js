@@ -29,6 +29,10 @@ function Home() {
     }
   }
 
+  const handleGoSubmitPage = () => {
+    navigator("/submit");
+  };
+
   return (
     <div className="home-container">
       <img src={wubby7} className="App-logo" alt="logo" />
@@ -44,7 +48,9 @@ function Home() {
           Search
         </button>
       </div>
-      <button className="big-button">Submit a meme</button>
+      <button className="big-button" onClick={handleGoSubmitPage}>
+        Submit a meme
+      </button>
       <Footer />
     </div>
   );

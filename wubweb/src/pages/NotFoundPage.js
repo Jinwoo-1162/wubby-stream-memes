@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 function NotFoundPage() {
   return (
     <div className="home-container">
+      <h1>404</h1>
       <img src={tanWubby} className="App-logo" alt="logo" />
       <span>Wubby Wubby Whoops! How did you end up here?</span>
       <Link to="/">
