@@ -1,0 +1,10 @@
+#entry-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.entry {
+  display: flex;
+  flex-direction: column;
+}
