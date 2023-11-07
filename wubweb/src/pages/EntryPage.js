@@ -3,22 +3,25 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Entry from "../Components/Entry";
 import "../CSS/EntryPage.css";
+import dataBaseData from "../temp_storage.json";
 
 function EntryPage(props) {
   const urlSplitArr = window.location.href.split("/");
   const entryEndpoint = urlSplitArr[urlSplitArr.length - 1];
-  const [allEntryArr, setAllEntryArr] = useState([]);
+  const [entryJson, setEntryJson] = useState({});
   useEffect(() => {
-    setAllEntryArr(["wubbywubbywoo", "hp", "tanwubby"]);
+    setEntryJson(
+      dataBaseData.entries.find((ele) => ele.key.includes(entryEndpoint))
+    );
   }, []);
 
   return (
     <div id="entry-page">
-      {allEntryArr.includes(entryEndpoint) ? (
+      {entryJson !== undefined ? (
         <Entry
-          entryTitle={entryEndpoint}
-          entryText={"Some text"}
-          entryLink={"https://google.com"}
+          entryTitle={entryJson.title}
+          entryText={entryJson.body}
+          entryLink={entryJson.link}
         />
       ) : (
         <h1>Invalid Entry</h1>

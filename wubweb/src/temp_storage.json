@@ -1,0 +1,23 @@
+{
+  "master_keys": ["hp", "wubbywubbywoo", "tanwubby"],
+  "entries": [
+    {
+      "key": ["hp"],
+      "title": "HP",
+      "body": "HP is Wubby's Spinx cat. His full name is HP OfficeJet Pro 6978 All-In-One Instant Ink Ready Printer",
+      "link": "https://youtu.be/2NNDqvQT_9I?si=sLmdWeUX5CVkdchx&t=7980"
+    },
+    {
+      "key": ["wubbywubbywoo"],
+      "title": "Wubby Wubby Woo",
+      "body": "Originating from a subreddit post, 'Wubby Wubby Woo' is a made up catchphrase from chat gpt",
+      "link": "https://www.reddit.com/r/PaymoneyWubby/comments/13e2y8o/wubby_wubby_woo/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button"
+    },
+    {
+      "key": ["tanwubby"],
+      "title": "Tan Face Wubby",
+      "body": "Tan Face Wubby is an image of Wubby in blackface",
+      "link": "https://youtu.be/464p5MwxkIg?si=semH-7uxmq31RYre&t=395"
+    }
+  ]
+}
